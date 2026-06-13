@@ -13,6 +13,13 @@ It creates fantasy RPG characters with:
 - printable PDF character sheets
 - a built-in dice roller
 
+## Project Roadmap
+
+Dragon Scrolls is under active development.
+
+See the [ROADMAP.md](ROADMAP.md) file for planned features, future ideas, and the current project direction.
+
+
 ## Status
 
 This project is currently an early hobby release.
