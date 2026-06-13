@@ -32,11 +32,13 @@ You can also skip AI image generation completely and use any normal image file y
 
 Dragon Scrolls supports adding portrait images so they can be saved with the character and included in previews or exports.
 
-## Project Roadmap
+## Project Roadmap and Changelog
 
 Dragon Scrolls is under active development.
 
 See the [ROADMAP.md](ROADMAP.md) file for planned features, future ideas, and the current project direction.
+
+See the [CHANGELOG.md](CHANGELOG.md) file for version history and release notes.
 
 ## Status
 
