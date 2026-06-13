@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local app settings
+dragon_scrolls_settings.json
+
+# Saved/generated character bundles
+JSON-*_character.json
+TXT-*_character.txt
+PDF-*_character.pdf
+PNG-*_portrait.png
+
+# Generated PDFs/images
+*.pdf
+
+# Local environment folders
+.venv/
+venv/
+env/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
