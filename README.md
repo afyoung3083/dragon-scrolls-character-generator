@@ -46,7 +46,17 @@ It works on Windows with Python 3.12, but it is still under active development.
 
 ## Screenshots
 
-Screenshots will be added later.
+### Main Character Generator
+
+![Main Character Generator](screenshots/screenshots_main_window.png)
+
+### Saved Character Browser
+
+![Character Portrait](screenshots/screenshots_character_portrait.png)
+
+### Dice Roller
+
+![Dice Roller](screenshots/screenshots_dice_roller.png)
 
 ## How to Run
 
