@@ -62,9 +62,38 @@ It works on Windows with Python 3.12, but it is still under active development.
 
 ## How to Run
 
+### Windows Quick Start
+
+This project is still a Python app, not a finished Windows installer yet.
+
+For the easiest first run on Windows:
+
+1. Download this project from GitHub.
+2. Unzip the downloaded folder.
+3. Open the unzipped project folder.
+4. Double-click:
+
+```text
+Launch Dragon Scrolls.bat
+```
+
+The batch launcher opens the Dragon Scrolls GUI without needing to open IDLE.
+
+If the app does not open, install Python 3.12 or newer, then install the required packages from inside the project folder:
+
+```bash
+pip install -r requirements.txt
+```
+
+After that, double-click `Launch Dragon Scrolls.bat` again.
+
+### Developer / Command-Line Run
+
+You can also run the app from a terminal.
+
 1. Install Python 3.12 or newer.
 2. Download this project.
-3. Open the project folder.
+3. Open the project folder in a terminal.
 4. Install the required packages:
 
 ```bash
@@ -76,14 +105,6 @@ pip install -r requirements.txt
 ```bash
 python dnd_gui_character_generator_v2.py
 ```
-
-On Windows, you can also use the included batch launcher:
-
-```text
-Launch Dragon Scrolls.bat
-```
-
-The batch launcher opens the GUI without needing to open IDLE.
 
 ## Required Python Packages
 
