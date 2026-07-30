@@ -78,27 +78,6 @@ def find_saved_character_files(folder_path):
 
     return found_files
 
-def get_saved_character_search_text(character_file_path):
-    search_parts = []
-
-    display_name = get_saved_character_display_name(character_file_path)
-    search_parts.append(display_name)
-
-    character_data = load_character_data_if_it_exists(character_file_path)
-
-    if character_data is not None:
-        search_parts.append(character_data.get("name", ""))
-        search_parts.append(character_data.get("class", ""))
-        search_parts.append(character_data.get("subclass", ""))
-        search_parts.append(character_data.get("species", ""))
-        search_parts.append(character_data.get("background", ""))
-        search_parts.append(character_data.get("alignment", ""))
-        search_parts.append(character_data.get("sex", ""))
-        search_parts.append(f"level {character_data.get('level', '')}")
-        search_parts.append(str(character_data.get("level", "")))
-
-    return " ".join(search_parts).lower()
-
 def get_saved_character_display_name(file_path):
     core_name = get_character_core_name(file_path)
 
