@@ -46,6 +46,14 @@ This project is currently an early hobby release.
 
 It works on Windows with Python 3.12, but it is still under active development.
 
+## Download
+
+The easiest way to try Dragon Scrolls on Windows is to download the latest Windows test package from the Releases page:
+
+[Download Dragon Scrolls v0.1.1 Windows Test Package](https://github.com/afyoung3083/dragon-scrolls-character-generator/releases/tag/v0.1.1)
+
+This is still a Python-based test release, not a full Windows installer.
+
 ## Screenshots
 
 ### Main Character Generator
@@ -68,110 +76,10 @@ This project is still a Python app, not a finished Windows installer yet.
 
 For the easiest first run on Windows:
 
-1. Download this project from GitHub.
+1. Download the latest Windows test package from the [Releases page](https://github.com/afyoung3083/dragon-scrolls-character-generator/releases/tag/v0.1.1).
 2. Unzip the downloaded folder.
 3. Open the unzipped project folder.
 4. Double-click:
 
 ```text
 Launch Dragon Scrolls.bat
-```
-
-The batch launcher opens the Dragon Scrolls GUI without needing to open IDLE.
-
-If the app does not open, install Python 3.12 or newer, then install the required packages from inside the project folder:
-
-```bash
-pip install -r requirements.txt
-```
-
-After that, double-click `Launch Dragon Scrolls.bat` again.
-
-### Developer / Command-Line Run
-
-You can also run the app from a terminal.
-
-1. Install Python 3.12 or newer.
-2. Download this project.
-3. Open the project folder in a terminal.
-4. Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-5. Run the app:
-
-```bash
-python dnd_gui_character_generator_v2.py
-```
-
-## Required Python Packages
-
-This project uses:
-
-```bash
-pip install pillow reportlab
-```
-
-Tkinter is included with most standard Python installations on Windows.
-
-## Main Features
-
-### Character Generator
-
-Dragon Scrolls can generate and edit fantasy RPG characters with class, subclass, species, background, alignment, level, ability scores, combat stats, spells, equipment, features, and roleplay traits.
-
-### Saved Character Browser
-
-Saved characters can be loaded, searched, sorted, refreshed, edited, and deleted from inside the app.
-
-### PDF Export
-
-The app can export a printable character sheet as a PDF.
-
-### Portrait Support
-
-The app can create a detailed portrait prompt, copy that prompt for use in an external image generator, and attach a saved PNG/JPG portrait image to the character.
-
-### Dice Roller
-
-The built-in dice roller supports common dice expressions such as:
-
-```text
-1d20
-1d20+5
-2d6+1d4+3
-8d6
-4d6 Drop Lowest
-1d20 Advantage
-1d20 Disadvantage
-```
-
-## Disclaimer
-
-Dragon Scrolls is an unofficial fantasy tabletop RPG tool.
-
-It is not affiliated with, endorsed by, sponsored by, or approved by Wizards of the Coast, Hasbro, or any official tabletop RPG publisher.
-
-This project does not include official Dungeons & Dragons logos, trade dress, proprietary setting material, or official artwork.
-
-Users are responsible for making sure any images they import into Dragon Scrolls are images they have the right to use.
-
-## Feedback
-
-Feedback, bugs, and feature ideas are welcome.
-
-Planned future improvements include:
-
-* better packaging as a Windows app
-* a cleaner installer
-* more editing tools
-* better dice roller visuals
-* campaign and party manager features
-* more export options
-* mobile or web versions if there is enough interest
-
-## License
-
-This project is released under the MIT License. See the `LICENSE` file for details.
